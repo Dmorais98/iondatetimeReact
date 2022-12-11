@@ -1,0 +1,19 @@
+.datemodal{
+    --background: rgba(44, 39, 45, 0.2);
+
+  
+}
+.datemodal::part(content){
+    backdrop-filter: blur(6px);
+}
+
+.dateModalOpen{
+    --background: transparent;
+    --padding-top: 25vh;
+    --padding-start: 20px;
+    --padding-end: 20px;
+}
+
+.calendar{
+    border-radius: 8px;
+}
